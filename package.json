@@ -1,1 +1,20 @@
-{"name": "gold-tracker", "version": "1.0.0", "description": "A project to track gold prices", "main": "index.js", "scripts": { "test": "echo 'Error: no test specified' && exit 1" }, "author": "growNeha", "license": "ISC", "dependencies": { "express": "^4.17.1", "axios": "^0.21.1" }}
+{
+  "name": "gold-tracker",
+  "version": "1.0.0",
+  "description": "A project to track gold prices",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
