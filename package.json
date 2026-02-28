@@ -1,0 +1,1 @@
+{"name": "gold-tracker", "version": "1.0.0", "description": "A project to track gold prices", "main": "index.js", "scripts": { "test": "echo 'Error: no test specified' && exit 1" }, "author": "growNeha", "license": "ISC", "dependencies": { "express": "^4.17.1", "axios": "^0.21.1" }}
